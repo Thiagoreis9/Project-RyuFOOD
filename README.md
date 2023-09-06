@@ -4,9 +4,10 @@
 
 # Project screens
 
-![layout-cardapio-responsivo-375](https://github.com/Thiagoreis9/Project-RyuFOOD/assets/61464525/adeef294-6c4d-4042-a7fa-3aa8919b3bc5)
-![layout-cardapio-responsivo-768](https://github.com/Thiagoreis9/Project-RyuFOOD/assets/61464525/9d016ef6-9887-4359-9473-11586a4b86d1)
-![layout-cardapio-responsivo-1024](https://github.com/Thiagoreis9/Project-RyuFOOD/assets/61464525/02215c9c-bf96-4466-acf8-215f59cbe94e)
+
+![mobile](https://github.com/Thiagoreis9/Project-RyuFOOD/assets/61464525/8b044383-aeeb-4a44-9fa8-a532882bad90)
+![mobile (1)](https://github.com/Thiagoreis9/Project-RyuFOOD/assets/61464525/1b94d04f-f194-498c-b62a-4f3ba765de60)
+![mobile (2)](https://github.com/Thiagoreis9/Project-RyuFOOD/assets/61464525/15eba3fd-c0a1-4a51-bb26-0ad4896b79ed)
 ![layout-cardapio-responsivo-1440](https://github.com/Thiagoreis9/Project-RyuFOOD/assets/61464525/b4b10768-2318-4f67-95ee-ad999a8c1a00)
 ![layout-cardapio-restaurante](https://github.com/Thiagoreis9/Project-RyuFOOD/assets/61464525/08421aa9-3fd6-4af5-991a-3eafc300de68)
 
