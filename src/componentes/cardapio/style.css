@@ -7,7 +7,6 @@
   display: flex;
   gap: 40px;
   flex-wrap: wrap;
-  background-color: #f3f3f3;
   justify-content: space-between;
 }
 
@@ -27,21 +26,15 @@
   margin: 40px 0px 20px 0px;
 }
 
-.card-categoria {
+.categorias button {
   padding: 10px 0px;
   width: 150px;
   display: flex;
   flex-grow: 1;
   justify-content: center;
-  background-color: #f3f3f3;
   font-weight: bold;
   font-size: 14px;
   border-radius: 5px;
-}
-
-.card-categoria:hover {
-  background-color: #daa520;
-  transition: .5s;
 }
 
 .filtros img {
@@ -66,4 +59,22 @@
   border-radius: 30px;
   padding-left: 50px;
   background-color: #f3f3f3;
+}
+
+.acenderBtn{
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+.acenderBtn:hover{
+  background-color: rgb(211, 111, 111);
+  transition: .5s;
+}
+
+.apagarBtn{
+  background-color: #f3f3f3;
+  
+}
+.apagarBtn:hover{
+  background-color: #daa520;
+  transition: .5s;
 }

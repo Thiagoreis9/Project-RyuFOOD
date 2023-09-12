@@ -11,12 +11,14 @@ const Cardapio = () => {
 
   const [listaProdutos, setListaProdutos] = useState(retornarProdutos);
   const [textoDigitado, setTextoDigitado] = useState("");
+  const [botaoClicado, setBotaoClicado] = useState("");
 
   const handleFiltrarCategoria = (categoria) => {
     setListaProdutos(
       produtos.filter((produto) => produto.categoria === categoria)
     );
     setTextoDigitado("");
+    setBotaoClicado(categoria);
   };
 
   const buscarProdutos = (textoDigitado) => {
@@ -38,42 +40,42 @@ const Cardapio = () => {
       <div className="filtros">
         <div className="categorias">
           <button
-            className="card-categoria"
+            className={botaoClicado === "Entradas" ? "acenderBtn" : "apagarBtn"}
             onClick={() => handleFiltrarCategoria("Entradas")}
           >
             <img src="assets/entrada.png" alt="" />
             <p>Entradas</p>
           </button>
           <button
-            className="card-categoria"
+            className={botaoClicado === "Massas" ? "acenderBtn" : "apagarBtn"}
             onClick={() => handleFiltrarCategoria("Massas")}
           >
             <img src="assets/massa.png" alt="" />
             <p>Massas</p>
           </button>
           <button
-            className="card-categoria"
+            className={botaoClicado === "Carnes" ? "acenderBtn" : "apagarBtn"}
             onClick={() => handleFiltrarCategoria("Carnes")}
           >
             <img src="assets/carne.png" alt="" />
             <p>Carnes</p>
           </button>
           <button
-            className="card-categoria"
+            className={botaoClicado === "Bebidas" ? "acenderBtn" : "apagarBtn"}
             onClick={() => handleFiltrarCategoria("Bebidas")}
           >
             <img src="assets/bebidas.png" alt="" />
             <p>Bebidas</p>
           </button>
           <button
-            className="card-categoria"
+            className={botaoClicado === "Saladas" ? "acenderBtn" : "apagarBtn"}
             onClick={() => handleFiltrarCategoria("Saladas")}
           >
             <img src="assets/salada.png" alt="" />
             <p>Saladas</p>
           </button>
           <button
-            className="card-categoria"
+            className={botaoClicado === "Sobremesas" ? "acenderBtn" : "apagarBtn"}
             onClick={() => handleFiltrarCategoria("Sobremesas")}
           >
             <img src="assets/sobremesa.png" alt="" />
